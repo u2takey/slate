@@ -1,5 +1,11 @@
+GIT
+  remote: https://github.com/xiaoq08/redcarpet.git
+  revision: 5bbf4e22f07f0c6ae8301672ad85d9c7dbbbd841
+  specs:
+    redcarpet (3.3.4)
+
 GEM
-  remote: https://rubygems.org/
+  remote: https://ruby.taobao.org/
   specs:
     activesupport (4.2.5.1)
       i18n (~> 0.7)
@@ -127,7 +133,7 @@ DEPENDENCIES
   middleman-gh-pages (~> 0.0.3)
   middleman-sprockets (~> 4.0.0.rc)
   middleman-syntax (~> 2.1.0)
-  redcarpet (~> 3.3.2)
+  redcarpet!
   rouge (~> 1.10.1)
 
 BUNDLED WITH

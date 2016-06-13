@@ -1,0 +1,12 @@
+pipeline:
+  index.qiniu.com/kci/plugin_docker:
+    repo: qcloud/slate
+    tag: latest
+    when:
+      branch: master
+      event: push
+  index.qiniu.com/kci/plugin_email:
+    recipients:
+      - qcos-dev@qiniu.com
+    when:
+      status:  [failure, success]
