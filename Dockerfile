@@ -1,4 +1,4 @@
-FROM ruby:2.3
+FROM index.qiniu.com/library/ruby:2.3
 
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN apt-get update && apt-get install -y nodejs nginx \
