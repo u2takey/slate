@@ -1,6 +1,6 @@
 pipeline:
   index.qiniu.com/kci/plugin_docker:
-    repo: qcloud/slate
+    repo: wanglei/slate
     tag: latest
     when:
       branch: master
